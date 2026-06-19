@@ -169,12 +169,9 @@ Open `fire_smoke_gas_detector.ino` and fill in the block at the top:
 #define FIREBASE_HOST    "YOUR_PROJECT_ID-default-rtdb.firebaseio.com"
 #define FIREBASE_API_KEY "YOUR_WEB_API_KEY"
 
-// Optional — leave empty if using open rules
 #define USER_EMAIL    "device@yourproject.com"
 #define USER_PASSWORD "your_secure_password"
 
-// Adjust for your timezone (seconds offset from UTC)
-// UTC+0 = 0, UTC+1 = 3600, UTC+5:30 = 19800, UTC-5 = -18000
 #define UTC_OFFSET_SEC 0
 ```
 
